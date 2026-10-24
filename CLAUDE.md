@@ -19,6 +19,12 @@
 
 変更後は `npm run build` と `npm run lint` が通ることを確認してからコミットする。
 
+### デプロイ（GitHub Pages）
+
+- `main` へのプッシュで `.github/workflows/deploy.yml` が動き、lint・ビルド後に GitHub Pages へ自動デプロイされる
+- 公開 URL: https://workkondokyouyu-byte.github.io/task-board/
+- `vite.config.js` でビルド時のみ `base: '/task-board/'` にしている。リポジトリ名を変えた場合はここも変更する
+
 ## コーディング規約
 
 - 既存コードの命名・書き方・コメント量に合わせる

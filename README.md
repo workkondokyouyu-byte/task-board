@@ -18,3 +18,9 @@ npm run dev
 ```
 
 表示された URL（通常は http://localhost:5173）をブラウザで開きます。
+
+## 公開
+
+`main` ブランチにプッシュすると、GitHub Actions で GitHub Pages に自動デプロイされます。
+
+https://workkondokyouyu-byte.github.io/task-board/
