@@ -8,7 +8,7 @@
 
 - 技術スタック: React 19 + Vite（JavaScript / JSX）
 - 主なファイル: `src/App.jsx`（画面とタスクの状態管理）、`src/App.css`（スタイル）
-- タスクはメモリ上の state で管理しており、リロードすると消える
+- タスクは state で管理し、変更のたびに localStorage（キー: `task-board.tasks`）へ保存、起動時に読み込む
 
 ### コマンド
 
